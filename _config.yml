@@ -1,0 +1,13 @@
+# Site settings
+title: marvinrichter.com
+email: info@marvinrichter.com
+description: > # this means to ignore newlines until "baseurl:"
+  Software Blog
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.marvinrichter.com" # the base hostname & protocol for your site
+twitter_username: marvin_richter
+github_username:  marvinrichter
+permalink: pretty
+
+# Build settings
+markdown: kramdown

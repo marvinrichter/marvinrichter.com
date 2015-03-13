@@ -1,0 +1,10 @@
+---
+layout: default
+title: Home
+---
+
+{% for post in site.posts %}
+  <div class="post">
+    <h1 class="page-header"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a> <small>{{ post.date | date: "%d. %B %Y" }}</small></h1>
+  </div>
+{% endfor %}

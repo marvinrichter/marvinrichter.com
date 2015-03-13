@@ -1,0 +1,40 @@
+<hr>
+
+<footer class="text-center">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-xs-12">
+        <ul class="list-inline social-icons">
+          <li>
+            <a href="https://twitter.com/{{ site.twitter_username }}" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/{{ site.github_username }}" target="_blank">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+        </ul>
+        <p class="copyright">Copyright © {{ site.title }} 2015</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="{{ "/js/jquery.js" | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/bootstrap.min.js" | prepend: site.baseurl }}"></script>

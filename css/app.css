@@ -1,0 +1,38 @@
+body {
+  font-family: "Open Sans", Helvetica, Arial, Helvetica, sans-serif ;
+  font-weight: 400;
+}
+
+a {
+  color: #404040;
+}
+
+a:hover,
+a:focus {
+  color: #f15f4c;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.post {
+  font-size: 18px;
+}
+
+.post a {
+  text-decoration: underline;
+}
+
+footer {
+  padding: 35px 0 20px;
+}
+
+footer .social-icons {
+  font-size: 20px;
+}
+
+footer .copyright {
+  color: #777;
+}
