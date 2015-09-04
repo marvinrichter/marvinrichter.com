@@ -6,6 +6,8 @@ permalink: /about/
 
 Marvin Richter is a Software Developer, living and working in Berlin, Germany.
 
-Since 2010 he's working at [freenet digital][freenet-digital] where he worked on designing and implementing RESTful API's, Wicket applications, AngularJS applications and many more.
+He has more than 5 years of experience in designing and implementing RESTful API's, Wicket applications, AngularJS applications and many more.
 
-[freenet-digital]: http://www.freenetdigital.com
+Since late 2015 he's working at [pro!vision].
+
+[pro!vision]: http://www.pro-vision.de
